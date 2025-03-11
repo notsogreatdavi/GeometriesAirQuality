@@ -9,8 +9,8 @@ st.title("Análise Comparativa de Dados Ambientais")
 # Carregar dados
 @st.cache_data
 def load_data():
-    apt = pd.read_csv("C:\codigos\projeto\GeometriesAirQuality\one_room_apartement.csv")
-    lab = pd.read_csv("C:\codigos\projeto\GeometriesAirQuality\laboratory.csv")
+    apt = pd.read_csv("one_room_apartement.csv")
+    lab = pd.read_csv("laboratory.csv")
     
     # Converter timestamp para datetime (ajustado para o formato correto)
     for df in [apt, lab]:

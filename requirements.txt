@@ -6,3 +6,4 @@ opencv-python
 pytesseract
 easyocr
 pillow
+plotly
